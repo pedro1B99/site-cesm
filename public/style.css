@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #6B4FDA;
+    width: 100%;
+    height: 250px;
+    color: white;
+    display: flex;
+}
+
+
+
+.itemsDiv h1 {
+    
+    padding: 50px 0 55px 0;
+    margin-left: 30px;
+    font-size: 25px;
+    max-width: 840px;
+}
+
+.itemsDiv .initLi {
+    padding-right: 100px;
+}
+
+.logoImg  {
+    margin: 30px;
+    margin-left: 70px;
+    border-radius: 100%;
+    transition: .4s;
+}
+
+.logoImg img {
+    border-radius: 100%;
+}
+
+.logoImg:hover  {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+.header li {
+    padding: 0 20px;
+    transition: .1s;
+}
+
+.header li:hover {
+    cursor: pointer;
+    color: #7AC1DF;
+    transform: scale(1.05);
+
+}
+
+.mainContainer {
+    height: 700px;
+    background: #7AC1DF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    padding-top: 60px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+
+
+
+.mainContainer .mainContainerImage img {
+    border-radius: 40px;
+    transition: .4s;
+
+}
+
+.mainContainer .mainContainerImage img:hover  {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.mainContainer .textContainer {
+    max-width: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+  
+
+}
+
+.mainContainer .textContainer p {
+    margin: 40px 0;
+   
+}
+
+.AboutUs {
+    height: 300px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.peopleContainer {
+    display: flex;
+}
+
+.peopleContainer img {
+    border-radius: 50%;
+
+}
+
+.peopleContainer .infoAboutPeople {
+    margin-left: 20px;
+}
+
+.peopleContainer .infoAboutPeople img {
+    padding-right: 20px;
+}
+
+.digitalContainer {
+    height: 150px;
+    background: #757575;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.digitalResponsable {
+    display: flex;
+    align-items: center;
+}
+
+.digitalResponsable p {
+    margin-left: 10px;
+}
